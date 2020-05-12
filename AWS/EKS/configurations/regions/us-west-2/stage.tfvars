@@ -1,16 +1,16 @@
-environment = "qa"
-region = "us-east-2"
+environment = "stage"
+region = "us-west-3"
 s3_bucket = "emil-terraform-eks"              #Will be used to set backend.tf
 s3_folder_project = "application"            #Will be used to set backend.tf
 s3_folder_region = "us-east-1"               #Will be used to set backend.tf
 s3_folder_type = "state"                     #Will be used to set backend.tf
 s3_tfstate_file = "infrastructure.tfstate.json"   #Will be used to set backend.tf
 
-vpc_id = "vpc-0f89264f8113946d0"
+vpc_id = "vpc-09f82c02b21b92842"
 
-subnet1 = "subnet-012b3186801fec08c" 
-subnet2 = "subnet-020a2648a108fd738"
-subnet3 = "subnet-0877c0d6d862ed7f3"
+subnet1 = "subnet-062fff90032825ec4" 
+subnet2 = "subnet-0dd0715a09aef6ea5"
+subnet3 = "subnet-007487c8990d55d16"
 
 cluster_name = "my-cluster-emilbek"
 instance_type = "t2.micro"
